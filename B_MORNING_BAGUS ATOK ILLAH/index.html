@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bagus Atok Illah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">BAI</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#getInTouch">Get in touch</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Bagus Atok Illah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#getInTouch" onclick="toggleMenu()">Get in touch</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="profile-picture-container">
+        <img
+          class="profile-picture"
+          src="./assets/profile.png"
+          alt="Bagus Atok Illah profile photo"
+        />
+        <div id="socials-container">
+          <a
+            class="social"
+            href="https://www.linkedin.com/in/baillah/"
+            target="_blank"
+          >
+            <img
+              src="./assets/linkedin.svg"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+            <p style="color: white">LinkedIn</p>
+          </a>
+          <a class="social" href="https://github.com/baicorp/" target="_blank">
+            <img
+              src="./assets/github.svg"
+              alt="My Github profile"
+              class="icon"
+            />
+            <p style="color: white">Github</p>
+          </a>
+        </div>
+      </div>
+      <div class="text-container">
+        <h1 style="margin-bottom: 2rem; text-align: start" class="title">
+          Hello 👋, <br />
+          I'm <span class="highlight">Bagus Atok Illah</span>
+        </h1>
+        <p>
+          At this time, I am actively working on expanding my knowledge of react
+          . Additionally, I am exploring next js and experimenting with the
+          supabase database.
+        </p>
+        <br />
+        <p>
+          I make sure to keep myself updated with the latest happenings in the
+          frontend field, and I really enjoy trying out new ideas and tools.
+        </p>
+      </div>
+    </section>
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="skills-section">
+        <div class="skills-card">
+          <img src="./assets/tech-logo/html.svg" alt="html" />
+          <p>html</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/css.svg" alt="css" />
+          <p>css</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/javaScript.svg" alt="JavaScript" />
+          <p>javaScript</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/python.svg" alt="python" />
+          <p>python</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/vite.svg" alt="vite" />
+          <p>vite</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/react.svg" alt="react" />
+          <p>react</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/typescript.svg" alt="typescript" />
+          <p>typescript</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/next js.svg" alt="next js" />
+          <p>next js</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/tailwind css.svg" alt="tailwind css" />
+          <p>tailwind css</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/node js.svg" alt="node js" />
+          <p>node js</p>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/tech-logo/git.svg" alt="git" />
+          <p>git</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <p class="section__text__p1">
+        Collections of exciting projects to fulfill my curiosity.
+      </p>
+      <!-- <div class="experience-details-container"> -->
+      <div class="project-container">
+        <div class="project-card">
+          <img class="project-img" src="assets/project-logo/note.png" alt="" />
+          <div class="project-detail">
+            <div>
+              <h2>Bai note</h2>
+              <p>Organize and record your ideas easily with notes.</p>
+            </div>
+            <div>
+              <div class="link-container">
+                <a
+                  class="link link-color-2 project-link"
+                  href="https://github.com/baicorp/web-note"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                <a
+                  class="link link-color-2 project-link"
+                  href="https://bainote.netlify.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="assets/project-logo/quiz.webp" alt="" />
+          <div class="project-detail">
+            <div>
+              <h2>Bai Quiz</h2>
+              <p>Build fun quiz using open trivia database API.</p>
+            </div>
+            <div>
+              <div class="link-container">
+                <a
+                  class="link link-color-2 project-link"
+                  href="https://github.com/baicorp/web-quiz"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                <a
+                  class="link link-color-2 project-link"
+                  href="https://baiquiz.netlify.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="assets/project-logo/architect web.webp"
+            alt=""
+          />
+          <div class="project-detail">
+            <div>
+              <h2>Web Architech</h2>
+              <p>
+                Implementing a mobile-first approach to achieve responsive
+                design.
+              </p>
+            </div>
+            <div>
+              <div class="link-container">
+                <a
+                  class="link link-color-2 project-link"
+                  href="https://github.com/baicorp/Web-Architect"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="getInTouch">
+      <h1 class="title">Get in Touch</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/website.gif"
+            l
+            alt="personal website "
+            class="icon contact-icon"
+          />
+          <p><a href="https://baidev.vercel.app/">my official web</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/baillah/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&#169; 2023 • Bagus Atok Illah</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
